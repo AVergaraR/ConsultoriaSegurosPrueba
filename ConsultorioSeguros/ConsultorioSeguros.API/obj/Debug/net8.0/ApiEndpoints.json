@@ -1,0 +1,278 @@
+[
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoController",
+    "Method": "GetAllAsegurados",
+    "RelativePath": "api/asegurado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoController",
+    "Method": "AddAsegurado",
+    "RelativePath": "api/asegurado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "asegurado",
+        "Type": "ConsultorioSeguros.Entities.Asegurado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoController",
+    "Method": "UpdateAsegurado",
+    "RelativePath": "api/asegurado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "asegurado",
+        "Type": "ConsultorioSeguros.Entities.Asegurado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoSeguroController",
+    "Method": "GetAseguradosBySeguroCodigo",
+    "RelativePath": "api/asegurado_seguro/asegurados/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoSeguroController",
+    "Method": "AssignSeguroToAsegurado",
+    "RelativePath": "api/asegurado_seguro/assign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ConsultorioSeguros.Entities.AseguradoSeguro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoSeguroController",
+    "Method": "GetSegurosByAseguradoCedula",
+    "RelativePath": "api/asegurado_seguro/seguros/{cedula}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoController",
+    "Method": "GetAseguradoById",
+    "RelativePath": "api/asegurado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoController",
+    "Method": "DeleteAsegurado",
+    "RelativePath": "api/asegurado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoController",
+    "Method": "BulkUploadAsegurados",
+    "RelativePath": "api/asegurado/bulk-upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoController",
+    "Method": "GetAseguradoByCedula",
+    "RelativePath": "api/asegurado/cedula/{cedula}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.AseguradoController",
+    "Method": "GetAseguradosNoAsignadosPorSeguro",
+    "RelativePath": "api/asegurado/no_asignados/{codigoSeguro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigoSeguro",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.SeguroController",
+    "Method": "GetAllSeguros",
+    "RelativePath": "api/seguro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.SeguroController",
+    "Method": "AddSeguro",
+    "RelativePath": "api/seguro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seguro",
+        "Type": "ConsultorioSeguros.Entities.Seguro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.SeguroController",
+    "Method": "UpdateSeguro",
+    "RelativePath": "api/seguro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "seguro",
+        "Type": "ConsultorioSeguros.Entities.Seguro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.SeguroController",
+    "Method": "GetSeguroById",
+    "RelativePath": "api/seguro/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.SeguroController",
+    "Method": "DeleteSeguro",
+    "RelativePath": "api/seguro/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.SeguroController",
+    "Method": "GetSeguroByCodigo",
+    "RelativePath": "api/seguro/codigo/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ConsultorioSeguros.API.Controllers.SeguroController",
+    "Method": "GetSegurosNoAsignadosPorAsegurado",
+    "RelativePath": "api/seguro/no_asignados/{cedula}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cedula",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

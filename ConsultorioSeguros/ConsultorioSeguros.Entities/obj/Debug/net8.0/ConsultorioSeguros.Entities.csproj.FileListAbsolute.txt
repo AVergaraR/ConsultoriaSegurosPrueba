@@ -1,0 +1,11 @@
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\bin\Debug\net8.0\ConsultorioSeguros.Entities.deps.json
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\bin\Debug\net8.0\ConsultorioSeguros.Entities.dll
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\bin\Debug\net8.0\ConsultorioSeguros.Entities.pdb
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\obj\Debug\net8.0\ConsultorioSeguros.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\obj\Debug\net8.0\ConsultorioSeguros.Entities.AssemblyInfoInputs.cache
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\obj\Debug\net8.0\ConsultorioSeguros.Entities.AssemblyInfo.cs
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\obj\Debug\net8.0\ConsultorioSeguros.Entities.csproj.CoreCompileInputs.cache
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\obj\Debug\net8.0\ConsultorioSeguros.Entities.dll
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\obj\Debug\net8.0\refint\ConsultorioSeguros.Entities.dll
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\obj\Debug\net8.0\ConsultorioSeguros.Entities.pdb
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.Entities\obj\Debug\net8.0\ref\ConsultorioSeguros.Entities.dll

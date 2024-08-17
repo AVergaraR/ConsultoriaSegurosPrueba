@@ -1,0 +1,56 @@
+<div class="container">
+    <h2 class="text-center mb-4 mt-4">Lista de asegurados</h2>
+  
+    <div class="d-flex gap-4 mb-2" style="margin-top: 4rem;">
+      <!-- Sección de Búsqueda -->
+      <div class="col-4 mb-3">
+        <input type="text" class="form-control d-inline-block w-30" placeholder="Buscar asegurado por código de seguro.." [(ngModel)]="codigoSeguro" />
+      </div>
+  
+      <!-- Botones -->
+      <div class="col-4 mb-3">
+        <button class="btn btn-primary" (click)="buscarPorCodigoSeguro()">Buscar</button>
+        <button class="btn btn-secondary" style="margin-left: 0.4rem;" (click)="resetBusqueda()">Reiniciar</button>
+        <button class="btn btn-success" style="margin-left: 2rem;" (click)="openModal()">Agregar asegurado</button>
+      </div>
+    </div>
+
+    <!-- Sección de Carga de Archivos -->
+    <div class="col-4 mb-3">
+        <input type="file" class="form-control d-inline-block w-60" (change)="onFileChange($event)" accept=".txt" />
+        <div *ngIf="loading" class="spinner-border text-primary" role="status" style="margin-left: 1rem;">
+          <span class="visually-hidden">Cargando...</span>
+        </div>
+      </div>
+  
+    <!-- Tabla de Asegurados -->
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Cédula</th>
+          <th>Nombre</th>
+          <th>Teléfono</th>
+          <th>Edad</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let asegurado of asegurados">
+          <td>{{ asegurado.cedula }}</td>
+          <td>{{ asegurado.nombre }}</td>
+          <td>{{ asegurado.telefono }}</td>
+          <td>{{ asegurado.edad }}</td>
+          <td>
+            <button class="btn btn-primary" style="margin-right: 1rem;" (click)="openModal(asegurado)">Editar</button>
+            <button class="btn btn-success" style="margin-right: 1rem;" (click)="openModalAsign(asegurado.cedula)">Seguros</button>
+            <button class="btn btn-danger" (click)="deleteAsegurado(asegurado.id)">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <!-- Modal de Asegurado -->
+    <app-modal *ngIf="showModal" [asegurado]="selectedAsegurado" (close)="closeModal()" (save)="saveAsegurado($event)"></app-modal>
+    <app-modal-seguros *ngIf="showModalAsign" [cedula]="selectedCedula" (close)="closeModalAsign()"></app-modal-seguros>
+  </div>
+  

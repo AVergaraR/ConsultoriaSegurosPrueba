@@ -1,0 +1,57 @@
+<!-- Modal HTML -->
+<div class="modal fade show d-block" tabindex="-1" role="dialog" style="display: block;">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">{{ aseguradoForm.value.id ? 'Editar Asegurado' : 'Agregar Nuevo Asegurado' }}</h5>
+          <button type="button" class="btn-close" aria-label="Close" (click)="onClose()"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="aseguradoForm" (ngSubmit)="onSave()">
+            <div class="mb-3">
+              <label for="cedula" class="form-label">Cédula</label>
+              <input id="cedula" formControlName="cedula" type="text" maxlength="10"
+              oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="form-control" />
+              <div *ngIf="aseguradoForm.get('cedula')?.invalid &&  aseguradoForm.get('cedula')?.hasError('numeroInvalido') && (aseguradoForm.get('cedula')?.touched || aseguradoForm.get('cedula')?.dirty)">
+                <small class="text-danger" *ngIf="aseguradoForm.get('cedula')?.errors?.['required']">Cédula es requerida.</small>
+                <small class="text-danger" *ngIf="aseguradoForm.get('cedula')?.hasError('numeroInvalido')">La cédula debe contener 10 dígitos numéricos.</small>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input id="nombre" formControlName="nombre" type="text" maxlength="20"
+               class="form-control" />
+              <div *ngIf="aseguradoForm.get('nombre')?.invalid && (aseguradoForm.get('nombre')?.touched || aseguradoForm.get('nombre')?.dirty)">
+                <small class="text-danger" *ngIf="aseguradoForm.get('nombre')?.errors?.['required']">Nombre es requerido.</small>
+                <small class="text-danger" *ngIf="aseguradoForm.get('nombre')?.errors?.['pattern']">El nombre debe tener máximo 20 caracteres.</small>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input id="telefono" formControlName="telefono" type="text"
+              maxlength="10"
+              oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="form-control" />
+              <div *ngIf="aseguradoForm.get('telefono')?.invalid && aseguradoForm.get('telefono')?.hasError('numeroInvalido') && (aseguradoForm.get('telefono')?.touched || aseguradoForm.get('telefono')?.dirty)">
+                <small class="text-danger" *ngIf="aseguradoForm.get('telefono')?.errors?.['required']">Teléfono es requerido.</small>
+                <small class="text-danger" *ngIf="aseguradoForm.get('telefono')?.hasError('numeroInvalido')">El teléfono debe contener 10 dígitos numéricos.</small>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="edad" class="form-label">Edad</label>
+              <input id="edad" formControlName="edad" type="number" class="form-control" />
+              <div *ngIf="aseguradoForm.get('edad')?.invalid && aseguradoForm.get('edad')?.hasError('edadInvalida') &&  (aseguradoForm.get('edad')?.touched || aseguradoForm.get('edad')?.dirty)">
+                <small class="text-danger" *ngIf="aseguradoForm.get('edad')?.errors?.['required']">Edad es requerida.</small>
+                <small class="text-danger" *ngIf="aseguradoForm.get('edad')?.hasError('edadInvalida')">La edad debe ser mayor a 18 y menor a 110.</small>
+                
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" (click)="onClose()">Cerrar</button>
+              <button type="submit" class="btn btn-primary" [disabled]="aseguradoForm.invalid">Guardar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  

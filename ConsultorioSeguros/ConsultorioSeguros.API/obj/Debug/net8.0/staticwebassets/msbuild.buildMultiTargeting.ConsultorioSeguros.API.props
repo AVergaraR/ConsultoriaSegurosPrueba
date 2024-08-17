@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ConsultorioSeguros.API.props" />
+</Project>

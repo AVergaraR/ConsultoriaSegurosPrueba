@@ -1,0 +1,105 @@
+<div class="modal fade show d-block" tabindex="-1" role="dialog" style="display: block;">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">{{ seguroForm.get('id')?.value ? 'Editar Seguro' : 'Agregar Nuevo Seguro' }}</h5>
+          <button type="button" class="btn-close" aria-label="Close" (click)="onClose()">
+          </button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="seguroForm">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                formControlName="nombre"
+                maxlength="40"
+                required
+
+              />
+              <small
+                class="text-danger"
+                *ngIf="seguroForm.get('nombre')?.errors?.['required']"
+                >El nombre es requerido.</small
+              >
+              <small
+                class="text-danger"
+                *ngIf="seguroForm.get('nombre')?.errors?.['maxlength']"
+                >El nombre debe tener un máximo de 30 caracteres.</small
+              >
+              
+            </div>
+            <div class="form-group">
+              <label for="codigo">Código</label>
+              <input
+                type="text"
+                class="form-control"
+                id="codigo"
+                formControlName="codigo"
+                maxlength="20"
+                required
+              />
+              <small
+                class="text-danger"
+                *ngIf="seguroForm.get('codigo')?.errors?.['required']"
+                >El código es requerido.</small
+              >
+              <small
+                class="text-danger"
+                *ngIf="seguroForm.get('codigo')?.errors?.['maxlength']"
+                >El código debe tener un máximo de 20 caracteres.</small
+              >
+              
+            </div>
+            <div class="form-group">
+              <label for="sumaAsegurada">Suma Asegurada</label>
+              <input
+                type="number"
+                class="form-control"
+                id="sumaAsegurada"
+                formControlName="sumaAsegurada"
+                required
+              />
+              <small
+                class="text-danger"
+                *ngIf="seguroForm.get('sumaAsegurada')?.errors?.['required']"
+                >La suma asegurada es requerida.</small
+              >
+              <small
+                class="text-danger"
+                *ngIf="seguroForm.get('sumaAsegurada')?.errors?.['pattern']"
+                >La suma asegurada debe ser un número con hasta 2 decimales.</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="prima">Prima</label>
+              <input
+                type="number"
+                class="form-control"
+                id="prima"
+                formControlName="prima"
+                required
+              />
+              <small
+                class="text-danger"
+                *ngIf="seguroForm.get('prima')?.errors?.['required']"
+                >La prima es requerida.</small
+              >
+              <small
+                class="text-danger"
+                *ngIf="seguroForm.get('prima')?.errors?.['pattern']"
+                >La prima debe ser un número con hasta 2 decimales.</small
+              >
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="onClose()">Cerrar</button>
+          <button type="button" class="btn btn-primary" (click)="onSave()" [disabled]="seguroForm.invalid">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

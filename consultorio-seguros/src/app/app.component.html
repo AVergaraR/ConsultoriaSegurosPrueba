@@ -1,0 +1,15 @@
+<!-- src/app/app.component.html -->
+<div class="container mt-4">
+  <!-- Tabs -->
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" routerLink="/asegurados" routerLinkActive="active" aria-controls="asegurados" aria-selected="true">Asegurados</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" routerLink="/seguros" routerLinkActive="active" aria-controls="seguros" aria-selected="false">Seguros</a>
+    </li>
+  </ul>
+
+  <!-- Tab Content -->
+  <router-outlet></router-outlet>
+</div>

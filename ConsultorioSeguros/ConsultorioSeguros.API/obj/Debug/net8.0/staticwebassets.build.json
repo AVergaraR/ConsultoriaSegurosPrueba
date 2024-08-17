@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RvTg12YZWs0emjBqMLkwnlXwHf4skkgANTe7z3u81YM=",
+  "Source": "ConsultorioSeguros.API",
+  "BasePath": "_content/ConsultorioSeguros.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

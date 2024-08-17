@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.dal\\aseguradorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|solutionrelative:consultorioseguros.dal\\aseguradorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.api\\controllers\\aseguradocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|solutionrelative:consultorioseguros.api\\controllers\\aseguradocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.bll\\aseguradoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|solutionrelative:consultorioseguros.bll\\aseguradoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.dal\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|solutionrelative:consultorioseguros.dal\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.dal\\iaseguradorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|solutionrelative:consultorioseguros.dal\\iaseguradorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.dal\\isegurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|solutionrelative:consultorioseguros.dal\\isegurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.bll\\iaseguradoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|solutionrelative:consultorioseguros.bll\\iaseguradoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.api\\controllers\\segurocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|solutionrelative:consultorioseguros.api\\controllers\\segurocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.bll\\filevalidatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|solutionrelative:consultorioseguros.bll\\filevalidatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.dal\\aseguradosegurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|solutionrelative:consultorioseguros.dal\\aseguradosegurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.bll\\seguroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|solutionrelative:consultorioseguros.bll\\seguroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|solutionrelative:consultorioseguros.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.dal\\segurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|solutionrelative:consultorioseguros.dal\\segurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DEC023A-B014-4BC2-B8AF-129B211ADB94}|ConsultorioSeguros.Entities\\ConsultorioSeguros.Entities.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.entities\\aseguradoseguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DEC023A-B014-4BC2-B8AF-129B211ADB94}|ConsultorioSeguros.Entities\\ConsultorioSeguros.Entities.csproj|solutionrelative:consultorioseguros.entities\\aseguradoseguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DEC023A-B014-4BC2-B8AF-129B211ADB94}|ConsultorioSeguros.Entities\\ConsultorioSeguros.Entities.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.entities\\asegurado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DEC023A-B014-4BC2-B8AF-129B211ADB94}|ConsultorioSeguros.Entities\\ConsultorioSeguros.Entities.csproj|solutionrelative:consultorioseguros.entities\\asegurado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.api\\controllers\\aseguradosegurocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|solutionrelative:consultorioseguros.api\\controllers\\aseguradosegurocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|solutionrelative:consultorioseguros.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.bll\\aseguradoseguroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|solutionrelative:consultorioseguros.bll\\aseguradoseguroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.bll\\iaseguradoseguroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|solutionrelative:consultorioseguros.bll\\iaseguradoseguroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DEC023A-B014-4BC2-B8AF-129B211ADB94}|ConsultorioSeguros.Entities\\ConsultorioSeguros.Entities.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.entities\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DEC023A-B014-4BC2-B8AF-129B211ADB94}|ConsultorioSeguros.Entities\\ConsultorioSeguros.Entities.csproj|solutionrelative:consultorioseguros.entities\\seguro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.api\\consultorioseguros.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E6A0962A-C40B-4CFD-84A1-5C2BFEB7A600}|ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj|solutionrelative:consultorioseguros.api\\consultorioseguros.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DEC023A-B014-4BC2-B8AF-129B211ADB94}|ConsultorioSeguros.Entities\\ConsultorioSeguros.Entities.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.entities\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DEC023A-B014-4BC2-B8AF-129B211ADB94}|ConsultorioSeguros.Entities\\ConsultorioSeguros.Entities.csproj|solutionrelative:consultorioseguros.entities\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.bll\\iseguroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6183BB-BAA2-41C3-B1C6-418C6198C931}|ConsultorioSeguros.BLL\\ConsultorioSeguros.BLL.csproj|solutionrelative:consultorioseguros.bll\\iseguroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.dal\\iaseguradosegurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|solutionrelative:consultorioseguros.dal\\iaseguradosegurorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|c:\\users\\amvr\\desktop\\trabajos\\prueba_vi\\consultorioseguros\\consultorioseguros.dal\\consultorioseguros.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{084007AB-F096-4A94-8813-4BD26A0C4F1A}|ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj|solutionrelative:consultorioseguros.dal\\consultorioseguros.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AseguradoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\AseguradoRepository.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.DAL\\AseguradoRepository.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\AseguradoRepository.cs",
+              "RelativeToolTip": "ConsultorioSeguros.DAL\\AseguradoRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:21:56.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAseguradoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\IAseguradoRepository.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.DAL\\IAseguradoRepository.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\IAseguradoRepository.cs",
+              "RelativeToolTip": "ConsultorioSeguros.DAL\\IAseguradoRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAMwA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:23:18.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FileValidatorService.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\FileValidatorService.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.BLL\\FileValidatorService.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\FileValidatorService.cs",
+              "RelativeToolTip": "ConsultorioSeguros.BLL\\FileValidatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T14:48:37.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\appsettings.json",
+              "RelativeToolTip": "ConsultorioSeguros.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-16T00:49:09.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAseguradoService.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\IAseguradoService.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.BLL\\IAseguradoService.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\IAseguradoService.cs",
+              "RelativeToolTip": "ConsultorioSeguros.BLL\\IAseguradoService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAMwA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T02:28:28.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AseguradoService.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\AseguradoService.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.BLL\\AseguradoService.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\AseguradoService.cs",
+              "RelativeToolTip": "ConsultorioSeguros.BLL\\AseguradoService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAtwIMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T02:29:43.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISeguroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\ISeguroRepository.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.DAL\\ISeguroRepository.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\ISeguroRepository.cs",
+              "RelativeToolTip": "ConsultorioSeguros.DAL\\ISeguroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:22:23.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.DAL\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\DatabaseContext.cs",
+              "RelativeToolTip": "ConsultorioSeguros.DAL\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T05:51:51.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AseguradoController.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\Controllers\\AseguradoController.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.API\\Controllers\\AseguradoController.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\Controllers\\AseguradoController.cs",
+              "RelativeToolTip": "ConsultorioSeguros.API\\Controllers\\AseguradoController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAD4v4EAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:10:28.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeguroController.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\Controllers\\SeguroController.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.API\\Controllers\\SeguroController.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\Controllers\\SeguroController.cs",
+              "RelativeToolTip": "ConsultorioSeguros.API\\Controllers\\SeguroController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T09:53:05.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AseguradoSeguroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\AseguradoSeguroRepository.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.DAL\\AseguradoSeguroRepository.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\AseguradoSeguroRepository.cs",
+              "RelativeToolTip": "ConsultorioSeguros.DAL\\AseguradoSeguroRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwD4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:40:47.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SeguroService.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\SeguroService.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.BLL\\SeguroService.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\SeguroService.cs",
+              "RelativeToolTip": "ConsultorioSeguros.BLL\\SeguroService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T02:29:15.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AseguradoSeguro.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.Entities\\AseguradoSeguro.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.Entities\\AseguradoSeguro.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.Entities\\AseguradoSeguro.cs",
+              "RelativeToolTip": "ConsultorioSeguros.Entities\\AseguradoSeguro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:35:54.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Asegurado.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.Entities\\Asegurado.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.Entities\\Asegurado.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.Entities\\Asegurado.cs",
+              "RelativeToolTip": "ConsultorioSeguros.Entities\\Asegurado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:35:34.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AseguradoSeguroController.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\Controllers\\AseguradoSeguroController.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.API\\Controllers\\AseguradoSeguroController.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\Controllers\\AseguradoSeguroController.cs",
+              "RelativeToolTip": "ConsultorioSeguros.API\\Controllers\\AseguradoSeguroController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T10:51:11.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SeguroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\SeguroRepository.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.DAL\\SeguroRepository.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\SeguroRepository.cs",
+              "RelativeToolTip": "ConsultorioSeguros.DAL\\SeguroRepository.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAiwGwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:15:34.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\Program.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.API\\Program.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\Program.cs",
+              "RelativeToolTip": "ConsultorioSeguros.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T00:53:07.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AseguradoSeguroService.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\AseguradoSeguroService.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.BLL\\AseguradoSeguroService.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\AseguradoSeguroService.cs",
+              "RelativeToolTip": "ConsultorioSeguros.BLL\\AseguradoSeguroService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T02:30:07.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAseguradoSeguroService.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\IAseguradoSeguroService.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.BLL\\IAseguradoSeguroService.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\IAseguradoSeguroService.cs",
+              "RelativeToolTip": "ConsultorioSeguros.BLL\\IAseguradoSeguroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T02:28:48.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Seguro.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.Entities\\Seguro.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.Entities\\Seguro.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.Entities\\Seguro.cs",
+              "RelativeToolTip": "ConsultorioSeguros.Entities\\Seguro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:34:56.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ConsultorioSeguros.API.csproj",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj",
+              "RelativeToolTip": "ConsultorioSeguros.API\\ConsultorioSeguros.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-16T05:46:30.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.Entities\\Response.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.Entities\\Response.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.Entities\\Response.cs",
+              "RelativeToolTip": "ConsultorioSeguros.Entities\\Response.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T05:36:14.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ISeguroService.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\ISeguroService.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.BLL\\ISeguroService.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.BLL\\ISeguroService.cs",
+              "RelativeToolTip": "ConsultorioSeguros.BLL\\ISeguroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T01:47:50.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IAseguradoSeguroRepository.cs",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\IAseguradoSeguroRepository.cs",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.DAL\\IAseguradoSeguroRepository.cs",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\IAseguradoSeguroRepository.cs",
+              "RelativeToolTip": "ConsultorioSeguros.DAL\\IAseguradoSeguroRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:42:33.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ConsultorioSeguros.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj",
+              "RelativeDocumentMoniker": "ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj",
+              "ToolTip": "C:\\Users\\amvr\\Desktop\\Trabajos\\Prueba_Vi\\ConsultorioSeguros\\ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj",
+              "RelativeToolTip": "ConsultorioSeguros.DAL\\ConsultorioSeguros.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-16T01:06:22.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

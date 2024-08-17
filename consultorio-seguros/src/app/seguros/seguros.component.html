@@ -1,0 +1,45 @@
+<div class="container">
+    <h2 class="text-center mb-4 mt-4">Lista de seguros</h2>
+  
+    <!-- Sección de Búsqueda -->
+    <div class="d-flex gap-4 mb-2" style="margin-top: 4rem;">
+      <div class="col-4 mb-3">
+        <input type="text" class="form-control d-inline-block w-30" placeholder="Buscar seguros por cédula de asegurado.." [(ngModel)]="cedulaAsegurado" />
+      </div>
+      
+      <div class="col-4 mb-3">
+        <button class="btn btn-primary" (click)="buscarPorCedulaAsegurado()">Buscar</button>
+        <button class="btn btn-secondary" style="margin-left: 0.4rem;" (click)="resetBusqueda()">Reiniciar</button>
+        <button class="btn btn-success" style="margin-left: 2rem;" (click)="openModal()">Agregar seguro</button>
+      </div>
+    </div>
+    
+    <!-- Tabla de Seguros -->
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Código</th>
+          <th>Suma Asegurada</th>
+          <th>Prima</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let seguro of seguros">
+          <td>{{ seguro.nombre }}</td>
+          <td>{{ seguro.codigo }}</td>
+          <td>{{ seguro.sumaAsegurada | currency }}</td>
+          <td>{{ seguro.prima | currency }}</td>
+          <td>
+            <button class="btn btn-primary" style="margin-right: 1rem;" (click)="openModal(seguro)">Editar</button>
+            <button class="btn btn-danger" (click)="deleteSeguro(seguro.id)">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <!-- Modal de Seguro -->
+    <app-seguros-modal *ngIf="showModal" [seguro]="selectedSeguro" (close)="closeModal()" (save)="saveSeguro($event)"></app-seguros-modal>
+  </div>
+  

@@ -1,0 +1,15 @@
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\bin\Debug\net8.0\ConsultorioSeguros.DAL.deps.json
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\bin\Debug\net8.0\ConsultorioSeguros.DAL.dll
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\bin\Debug\net8.0\ConsultorioSeguros.DAL.pdb
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\bin\Debug\net8.0\ConsultorioSeguros.Entities.dll
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\bin\Debug\net8.0\ConsultorioSeguros.Entities.pdb
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\ConsultorioSeguros.DAL.csproj.AssemblyReference.cache
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\ConsultorioSeguros.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\ConsultorioSeguros.DAL.AssemblyInfoInputs.cache
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\ConsultorioSeguros.DAL.AssemblyInfo.cs
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\ConsultorioSeguros.DAL.csproj.CoreCompileInputs.cache
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\Consulto.1A01FAB9.Up2Date
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\ConsultorioSeguros.DAL.dll
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\refint\ConsultorioSeguros.DAL.dll
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\ConsultorioSeguros.DAL.pdb
+C:\Users\amvr\Desktop\Trabajos\Prueba_Vi\ConsultorioSeguros\ConsultorioSeguros.DAL\obj\Debug\net8.0\ref\ConsultorioSeguros.DAL.dll
