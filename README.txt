@@ -41,6 +41,8 @@ Consultorio Seguros
 	INSERT INTO CriteriosAsignacion (CodigoSeguro, EdadInicial, EdadFinal, Criterio)
 	VALUES ('A12B', 24, null, 'Mayor');
 
+* Para probar la carga masiva usar el archivo "asegurados.txt".
+
 
   
 
