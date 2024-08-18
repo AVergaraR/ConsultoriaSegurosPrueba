@@ -92,12 +92,6 @@ export class AseguradosComponent implements OnInit {
     }
   }
 
-  deleteAsegurado(id: number) {
-    this.aseguradoService.deleteAsegurado(id).subscribe(() => {
-      this.loadAsegurados();
-    });
-  }
-
   buscarPorCodigoSeguro() {
     if (this.codigoSeguro.trim() !== '') {
       this.aseguradoService.getAseguradosByCodigoSeguro(this.codigoSeguro).subscribe(data => {    
@@ -163,6 +157,29 @@ export class AseguradosComponent implements OnInit {
     });
   }
 
+  idAseguradoElim: number = 0;
+  aseguradoNombreElim: string = '';
+  showAseguradoElimModal: boolean = false;
+
+
+  openAseguradoElimModal(id: number, nombre: string) {
+    this.idAseguradoElim = id;
+    this.aseguradoNombreElim = nombre;
+    this.showAseguradoElimModal = true;
+  }
+
+  closeAseguradoElimModal() {
+    this.idAseguradoElim = 0;
+    this.aseguradoNombreElim = '';
+    this.showAseguradoElimModal = false;
+  }
+
+  
+  deleteAsegurado() {
+    this.aseguradoService.deleteAsegurado(this.idAseguradoElim).subscribe(() => {
+      this.loadAsegurados();
+    });
+  }
 
 
 }

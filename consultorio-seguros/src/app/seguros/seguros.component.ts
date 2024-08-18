@@ -62,11 +62,6 @@ export class SegurosComponent implements OnInit {
     }
   }
 
-  deleteSeguro(id: number) {
-    this.seguroService.deleteSeguro(id).subscribe(() => {
-      this.loadSeguros();
-    });
-  }
 
   buscarPorCedulaAsegurado() {
     if (this.cedulaAsegurado.trim() !== '') {
@@ -80,6 +75,31 @@ export class SegurosComponent implements OnInit {
     this.cedulaAsegurado = '';
     this.loadSeguros();
   }
+
+  idSeguroElim: number = 0;
+  seguroNombreElim: string = '';
+  showSeguroElimModal: boolean = false;
+
+
+  openSeguroElimModal(id: number, nombre: string) {
+    this.idSeguroElim = id;
+    this.seguroNombreElim = nombre;
+    this.showSeguroElimModal = true;
+  }
+
+  closeSeguroElimModal() {
+    this.idSeguroElim = 0;
+    this.seguroNombreElim = '';
+    this.showSeguroElimModal = false;
+  }
+
+  deleteSeguro() {
+    this.seguroService.deleteSeguro(this.idSeguroElim).subscribe(() => {
+      this.loadSeguros();
+    });
+  }
+  
+  
 
 
 }

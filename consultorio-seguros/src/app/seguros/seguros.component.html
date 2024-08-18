@@ -33,7 +33,7 @@
           <td>{{ seguro.prima | currency }}</td>
           <td>
             <button class="btn btn-primary" style="margin-right: 1rem;" (click)="openModal(seguro)">Editar</button>
-            <button class="btn btn-danger" (click)="deleteSeguro(seguro.id)">Eliminar</button>
+            <button class="btn btn-danger" (click)="openSeguroElimModal(seguro.id, seguro.nombre)">Eliminar</button>
           </td>
         </tr>
       </tbody>
@@ -41,5 +41,27 @@
   
     <!-- Modal de Seguro -->
     <app-seguros-modal *ngIf="showModal" [seguro]="selectedSeguro" (close)="closeModal()" (save)="saveSeguro($event)"></app-seguros-modal>
+
+    <!-- Modal de Eliminar -->
+    <div class="modal fade show d-block" *ngIf="showSeguroElimModal" tabindex="-1" role="dialog" style="display: block;">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Eliminar {{ seguroNombreElim }}</h5>
+            <button type="button" class="btn-close" aria-label="Close" (click)="closeSeguroElimModal()">
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row px-2">
+              ¿Esta seguro que desea eliminar el seguro {{ seguroNombreElim }}?  
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" (click)="closeSeguroElimModal()">Cancelar</button>
+            <button type="button" class="btn btn-danger" (click)="deleteSeguro()">Eliminar</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   
